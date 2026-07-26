@@ -576,3 +576,43 @@ footer {
   section { padding: 40px 15px; }
   #musicBtn { bottom: 20px; right: 20px; padding: 12px 20px; font-size: 14px; }
 }
+/* ===== DARK BLUE STARRY NIGHT OVERRIDE ===== */
+body, #website, section, .hero, .letter, .gallery, .reasons {
+  background-color: #0a0e2a !important;
+  background-image: radial-gradient(2px 2px at 20px 30px, white, transparent),
+                     radial-gradient(2px 2px at 90px 80px, white, transparent),
+                     radial-gradient(1px 1px at 150px 40px, white, transparent),
+                     radial-gradient(1px 1px at 200px 120px, white, transparent),
+                     linear-gradient(180deg, #05081a, #101a3d) !important;
+  background-repeat: repeat !important;
+  color: #e8e6ff !important;
+}
+
+h1, h2, h3, .hero h1, .hero span, .letter h2, .glass h1 {
+  color: #ffd76e !important;
+  text-shadow: 0 0 12px rgba(255, 215, 110, 0.4) !important;
+}
+
+.hero p, .glass p, p {
+  color: #cfd3ff !important;
+}
+
+.start, button, #unlock {
+  background: #ffd76e !important;
+  color: #0a0e2a !important;
+}
+
+.start:hover, button:hover, #unlock:hover {
+  background: #ffc93c !important;
+}
+
+.reason-card {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+  color: #e8e6ff !important;
+}
+
+#password {
+  background: #1b2a4a !important;
+  color: white !important;
+}
