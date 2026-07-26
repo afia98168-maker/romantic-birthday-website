@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Yousuf ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Floating Hearts -->
+<div class="hearts"></div>
+
+<!-- PASSWORD PAGE -->
+<section id="password-screen">
+<div class="glass">
+<h1>A Little Secret 🤍</h1>
+<p>This surprise was made for only one person.</p>
+<input type="password" id="password" placeholder="Enter Password">
+<button id="unlock">Unlock ❤️</button>
+<p class="hint">Hint: The day our story began...</p>
+<p id="error"></p>
+</div>
+</section>
+
+<!-- MAIN WEBSITE -->
+<div id="website" style="display:none;">
+
+<!-- HERO -->
+<section class="hero">
+<h1>Happy Birthday</h1>
+<span>Yousuf 🤍</span>
+<p>Every moment with you has become my favorite memory.</p>
+<button class="start">Start Our Journey ❤️</button>
+</section>
+
+<!-- LOVE LETTER -->
+<section class="letter">
+<h2>My Letter To You 💌</h2>
+<div class="letter-box">
+<p id="typing">PASTE YOUR LOVE LETTER HERE...</p>
+</div>
+</section>
+
+<!-- PHOTO GALLERY -->
+<section class="gallery">
+<h2>Our Memories 📸</h2>
+<div class="photos">
+<img src="images/photo1.jpg" alt="Memory 1">
+<img src="images/photo2.jpg" alt="Memory 2">
+<img src="images/photo3.jpg" alt="Memory 3">
+<img src="images/photo4.jpg" alt="Memory 4">
+<img src="images/photo5.jpg" alt="Memory 5">
+<img src="images/photo6.jpg" alt="Memory 6">
+</div>
+</section>
+
+<!-- REASONS I LOVE YOU -->
+<section class="reasons">
+<h2>12 Reasons Why I Love You ❤️</h2>
+<div class="reason-grid">
+<div class="reason-card"><h3>🤍 Reason #1</h3><p>Write your first reason here.</p></div>
+<div class="reason-card"><h3>🌸 Reason #2</h3><p>Write your second reason here.</p></div>
+<div class="reason-card"><h3>💌 Reason #3</h3><p>Write your third reason here.</p></div>
+<div class="reason-card"><h3>✨ Reason #4</h3><p>Write your fourth reason here.</p></div>
+<div class="reason-card"><h3>🥹 Reason #5</h3><p>Write your fifth reason here.</p></div>
+<div class="reason-card"><h3>💕 Reason #6</h3><p>Write your sixth reason here.</p></div>
+<div class="reason-card"><h3>🌹 Reason #7</h3><p>Write your seventh reason here.</p></div>
+<div class="reason-card"><h3>💖 Reason #8</h3><p>Write your eighth reason here.</p></div>
+<div class="reason-card"><h3>🫶 Reason #9</h3><p>Write your ninth reason here.</p></div>
+<div class="reason-card"><h3>💍 Reason #10</h3><p>Write your tenth reason here.</p></div>
+<div class="reason-card"><h3>🌟 Reason #11</h3><p>Write your eleventh reason here.</p></div>
+<div class="reason-card"><h3>✨ Reason #12</h3><p>Write your twelfth reason here.</p></div>
+</div>
+</section>
+
+<!-- TIMELINE -->
+<section class="timeline">
+<h2>Our Journey 📅</h2>
+<div class="timeline-container">
+<div class="timeline-item">
+<span class="date">19 April 2024</span>
+<h3>The Day We Met</h3>
+<p>The day our beautiful story began. I still remember that moment...</p>
+</div>
+<div class="timeline-item">
+<span class="date">Add Your Date</span>
+<h3>A Memorable Moment</h3>
+<p>Edit this timeline with your favorite memories together.</p>
+</div>
+<div class="timeline-item">
+<span class="date">Add Your Date</span>
+<h3>Another Beautiful Day</h3>
+<p>Continue building our story...</p>
+</div>
+</div>
+</section>
+
+<!-- TIME TOGETHER -->
+<section class="time-together">
+<h2>We've Been Together ⏰</h2>
+<div class="time-display">
+<div class="time-unit">
+<span class="time-number" id="days">0</span>
+<span class="time-label">Days</span>
+</div>
+<div class="time-unit">
+<span class="time-number" id="hours">0</span>
+<span class="time-label">Hours</span>
+</div>
+<div class="time-unit">
+<span class="time-number" id="minutes">0</span>
+<span class="time-label">Minutes</span>
+</div>
+<div class="time-unit">
+<span class="time-number" id="seconds">0</span>
+<span class="time-label">Seconds</span>
+</div>
+</div>
+</section>
+
+<!-- BIRTHDAY WISHES -->
+<section class="wishes">
+<h2>Birthday Wishes 🎁</h2>
+<div class="wishes-box">
+<p id="wishes-text">Edit this section with your birthday wishes...</p>
+</div>
+</section>
+
+<!-- FINAL SURPRISE -->
+<section class="final-surprise">
+<div class="final-card">
+<h1>Happy Birthday, My Baby 🤍</h1>
+<p>If I could relive one day forever,<br>I'd choose <strong>19•04•24</strong> —<br>the day our story began.<br><br>Thank you for making my life brighter,<br>for making me smile,<br>and for being my favorite person.<br><br>No matter where life takes us,<br>I hope we always find our way back to each other.<br><br>I love you.<br>Always.<br>🤍</p>
+<button onclick="showFireworks()">Celebrate 🎆</button>
+</div>
+</section>
+
+<!-- FIREWORKS -->
+<canvas id="fireworks"></canvas>
+
+<!-- MUSIC -->
+<audio id="music" loop>
+<source src="music/song.mp3" type="audio/mpeg">
+</audio>
+<button id="musicBtn">🎵 Play Music</button>
+
+<!-- FOOTER -->
+<footer>Made with ❤️ only for Yousuf.</footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
