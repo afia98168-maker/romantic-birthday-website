@@ -53,7 +53,7 @@ Edit each reason card in `index.html`:
 ```html
 <div class="reason-card">
   <h3>🤍 Reason #1</h3>
-  <p>Your reason here</p>
+  <p>because you make me feel loved</p>
 </div>
 ```
 
@@ -75,7 +75,7 @@ Edit in `index.html`:
 
 ```html
 <p id="wishes-text">
-Your wishes here...
+i wish you will be more successful than you imagine n i will be beside you always n forver.
 </p>
 ```
 
