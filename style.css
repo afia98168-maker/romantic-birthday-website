@@ -616,3 +616,18 @@ h1, h2, h3, .hero h1, .hero span, .letter h2, .glass h1 {
   background: #1b2a4a !important;
   color: white !important;
 }
+/* ===== FIX TEXT INSIDE LIGHT CARDS ===== */
+.letter-box,
+.letter-box p,
+#typing {
+  color: #1b2a4a !important;
+}
+
+.reason-card,
+.reason-card p {
+  color: #1b2a4a !important;
+}
+
+.reason-card h3 {
+  color: #d46a92 !important;
+}
