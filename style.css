@@ -631,3 +631,8 @@ h1, h2, h3, .hero h1, .hero span, .letter h2, .glass h1 {
 .reason-card h3 {
   color: #d46a92 !important;
 }
+.reason-card,
+.reason-card p,
+.reason-card h3 {
+  color: #fdf6e9 !important;
+}
