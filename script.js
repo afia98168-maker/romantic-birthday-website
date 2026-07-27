@@ -36,6 +36,14 @@ musicBtn.addEventListener("click", () => {
     isPlaying = true;
   }
 });
+// START JOURNEY BUTTON TRIGGERS MUSIC
+const startBtn = document.querySelector(".start");
+
+startBtn.addEventListener("click", () => {
+  music.play();
+  musicBtn.innerHTML = "⏸ Pause Music";
+  isPlaying = true;
+});
 
 // RELATIONSHIP TIMER
 const startDate = new Date("April 19, 2024 00:00:00");
